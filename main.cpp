@@ -10,10 +10,10 @@ private:
     string isbn;
 
 public:
-    // Constructor por defecto
+   
     Libro();
 
-    // Constructor con parámetros
+    
     Libro(string t, string a, string i);
 
     // Getters
