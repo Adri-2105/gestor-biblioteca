@@ -26,7 +26,7 @@ public:
     void setAutor(string a);
     void setIsbn(string i);
 
-    // Método para mostrar información
+    
     void mostrarInfo() const;
 };
 
