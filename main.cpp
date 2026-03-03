@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+//cout << "Prueba de commit individual" << endl;
 using namespace std;
 
 class Libro {
