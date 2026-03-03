@@ -1,0 +1,12 @@
+# Archivos de compilacion C++
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.lib
+
+# Carpeta de configuracion VSCode
+.vscode/
+
+# Archivos temporales
+*.log
