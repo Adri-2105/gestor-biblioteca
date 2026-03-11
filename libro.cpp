@@ -1,13 +1,36 @@
 #include "Libro.h"
 #include <iostream>
 
-Libro::Libro() : titulo(""), autor(""), isbn("") {}
+// Constructor
+Libro::Libro(std::string t, std::string a, std::string i){
 
-Libro::Libro(const std::string& t, const std::string& a, const std::string& i)
-    : titulo(t), autor(a), isbn(i) {}
+    titulo = t;
+    autor = a;
+    isbn = i;
 
-void Libro::mostrarInfo() const {
-    std::cout << "Titulo: " << titulo << "\n";
-    std::cout << "Autor: " << autor << "\n";
-    std::cout << "ISBN: " << isbn << "\n\n";
+}
+
+// Getters
+
+std::string Libro::getTitulo() const{
+    return titulo;
+}
+
+std::string Libro::getAutor() const{
+    return autor;
+}
+
+std::string Libro::getIsbn() const{
+    return isbn;
+}
+
+// Mostrar información
+
+void Libro::mostrarInfo() const{
+
+    std::cout << "Titulo: " << titulo << std::endl;
+    std::cout << "Autor: " << autor << std::endl;
+    std::cout << "ISBN: " << isbn << std::endl;
+    std::cout << "-------------------------" << std::endl;
+
 }
