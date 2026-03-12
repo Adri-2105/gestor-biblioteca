@@ -1,6 +1,6 @@
 #ifndef BIBLIOTECA_H
 #define BIBLIOTECA_H
-
+//se actializa Biblioteca.h
 #include <vector>
 #include <string>
 #include "Libro.h"
